@@ -1,0 +1,86 @@
+{
+  "Supplier": [
+    {
+      "id": 2001,
+      "supplierName": "Supplier_01",
+      "supplierContact": 9874586321
+    },
+    {
+      "id": 2002,
+      "supplierName": "Supplier_02",
+      "supplierContact": 9785486521
+    },
+    {
+      "id": 2003,
+      "supplierName": "Supplier_Test",
+      "supplierContact": 8888888888
+    },
+    {
+      "id": 2004,
+      "supplierName": "asdasd",
+      "supplierContact": 2342
+    },
+    {
+      "id": 2005,
+      "supplierName": "as",
+      "supplierContact": 22
+    },
+    {
+      "id": 2006,
+      "supplierName": "aa",
+      "supplierContact": 22
+    },
+    {
+      "id": 2007,
+      "supplierName": "aa",
+      "supplierContact": 22
+    },
+    {
+      "id": 2008,
+      "supplierName": "Andue",
+      "supplierContact": 8458777753
+    }
+  ],
+  "Product": [
+    {
+      "id": 1001,
+      "productName": "Product_78",
+      "productCost": 4500,
+      "supplier": {
+        "id": 2001,
+        "supplierName": "Supplier_01",
+        "supplierContact": 9874586321
+      }
+    },
+    {
+      "id": 1002,
+      "productName": "Product_99",
+      "productCost": 5600,
+      "supplier": {
+        "id": 2001,
+        "supplierName": "Supplier_01",
+        "supplierContact": 9874586321
+      }
+    },
+    {
+      "id": 1003,
+      "productName": "Test",
+      "productCost": 55555,
+      "supplier": {
+        "id": 2001,
+        "supplierName": "Supplier_01",
+        "supplierContact": 9874586321
+      }
+    },
+    {
+      "id": 1004,
+      "productName": "Test_02",
+      "productCost": 88888,
+      "supplier": {
+        "id": 2003,
+        "supplierName": "Supplier_Test",
+        "supplierContact": 8888888888
+      }
+    }
+  ]
+}

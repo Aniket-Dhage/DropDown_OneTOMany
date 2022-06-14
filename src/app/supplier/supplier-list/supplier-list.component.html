@@ -1,0 +1,18 @@
+<br><br>
+
+<table class="table table-success table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Supplier Name</th>
+        <th scope="col">Supplier Contact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of supplierList">
+        <th scope="row">{{s.id}}</th>
+        <td>{{s.supplierName}}</td>
+        <td>{{s.supplierContact}}</td>
+      </tr>
+    </tbody>
+  </table>
